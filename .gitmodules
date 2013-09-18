@@ -1,3 +1,3 @@
-[submodule "lib/pace"]
-	path = lib/pace
+[submodule "js/lib/pace"]
+	path = js/lib/pace
 	url = https://github.com/AdventureArts/PaCE.git
