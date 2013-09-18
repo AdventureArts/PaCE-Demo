@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="js/lib/pace/build/pace.min.css">
 </head>
 <body>
 
 <script>
 (function() {
-	var loadDevVersion = false; //whether to load in-development version or last compiled PaCE version
+	var loadDevVersion = true; //whether to load in-development version or last compiled PaCE version
 	document.write('<script data-main="js/project_setup'+ (loadDevVersion ? '_dev' : '') +'" src="js/lib/pace/src/js/lib/require-2.1.8.js"><\/script>');
 }());
 </script>
